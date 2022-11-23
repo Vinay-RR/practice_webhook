@@ -12,7 +12,7 @@ pipeline {
       }  
     }  
       	   stage ('BUILD STAGE 2') {
-		   agentany;
+		   agent any;
       steps {
         echo "$Job_Name"
         sh 'sleep 5;'
