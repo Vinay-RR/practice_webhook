@@ -28,7 +28,6 @@ pipeline {
 	      
         sh '''
 	df -h
-	      'sleep 5;'
 	      '''
       }  
     } 
